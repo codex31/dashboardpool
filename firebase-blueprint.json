@@ -1,0 +1,65 @@
+{
+  "entities": {
+    "RegisteredMonth": {
+      "title": "RegisteredMonth",
+      "description": "Configuration for an operational month registered with Google Spreadsheet",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Month unique ID, e.g. 2025-11",
+          "pattern": "^[0-9]{4}-[0-9]{2}$"
+        },
+        "monthName": {
+          "type": "string",
+          "description": "Name of the month in Indonesian",
+          "maxLength": 50
+        },
+        "monthNumber": {
+          "type": "number",
+          "description": "Calendar month number (1-12)"
+        },
+        "year": {
+          "type": "number",
+          "description": "Calendar year (e.g. 2025, 2026)"
+        },
+        "sheetUrl": {
+          "type": "string",
+          "description": "Full Google Spreadsheet URL",
+          "maxLength": 500
+        },
+        "gid": {
+          "type": "string",
+          "description": "Google Sheet tab GID for Centralize",
+          "maxLength": 50
+        },
+        "detailPendingGid": {
+          "type": "string",
+          "description": "Google Sheet tab GID for Detail Pendingan",
+          "maxLength": 50
+        },
+        "detailLkpbGid": {
+          "type": "string",
+          "description": "Google Sheet tab GID for Detail LKPB",
+          "maxLength": 50
+        },
+        "lastUpdated": {
+          "type": "string",
+          "description": "ISO timestamp of last update",
+          "maxLength": 60
+        },
+        "isDefault": {
+          "type": "boolean",
+          "description": "Whether this month is default"
+        }
+      },
+      "required": ["id", "monthName", "monthNumber", "year", "sheetUrl", "gid"]
+    }
+  },
+  "firestore": {
+    "/registered_months/{monthId}": {
+      "schema": "RegisteredMonth",
+      "description": "Collection of registered operational months"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Monitoring DO Pool Singkawang",
+  "description": "Dashboard monitoring DO, Pending, LKPB, Schedule Tim Teknisi, dan Analytics untuk Pool Singkawang dengan integrasi Google Spreadsheet.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

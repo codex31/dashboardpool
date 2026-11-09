@@ -1,0 +1,6 @@
+{
+  "summary": "Rencana implementasi integrasi Spreadsheet November 2025 ke database server dan Firestore, deteksi kolom otomatis berbasis kata kunci header fleksibel untuk seluruh spreadsheet 2025, pembaruan dataset default/fallback, dan penanganan kendala kurang sparepart.",
+  "updatedAt": "2026-10-14T03:38:43.453359248Z",
+  "requestFeedback": true,
+  "userFacing": true
+}

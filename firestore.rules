@@ -1,0 +1,34 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Global Default Deny
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    match /test/connection {
+      allow read: if true;
+    }
+
+    function isValidId(id) {
+      return id is string && id.size() <= 128 && id.matches('^[a-zA-Z0-9_\\-]+$');
+    }
+
+    function isValidMonthConfig(data) {
+      return data.id is string && data.id.size() <= 16 &&
+        data.monthName is string && data.monthName.size() <= 50 &&
+        data.monthNumber is number && data.monthNumber >= 1 && data.monthNumber <= 12 &&
+        data.year is number && data.year >= 2020 && data.year <= 2050 &&
+        data.sheetUrl is string && data.sheetUrl.size() <= 500 &&
+        data.gid is string && data.gid.size() <= 50;
+    }
+
+    // Registered months collection
+    match /registered_months/{monthId} {
+      allow read: if isValidId(monthId);
+      allow list: if true;
+      allow write: if isValidId(monthId) && isValidMonthConfig(request.resource.data);
+    }
+  }
+}

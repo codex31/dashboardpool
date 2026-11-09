@@ -1,0 +1,233 @@
+@import "tailwindcss";
+
+html {
+  font-size: 13.5px; /* Compact scaled baseline across all rem units */
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+@layer utilities {
+  /* ========================================================
+     NEO BRUTALISM DESIGN SYSTEM (BLUE & WHITE PALETTE)
+     Features: Solid 2px dark borders, hard offset shadows,
+     high-contrast punchy typography, sharp geometric surfaces.
+     ======================================================== */
+
+  /* Neo Brutalist Background Grid Pattern */
+  .neo-canvas-grid {
+    background-color: #eff5ff;
+    background-image: 
+      radial-gradient(#2563eb 1.2px, transparent 1.2px), 
+      linear-gradient(to right, rgba(37, 99, 235, 0.04) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(37, 99, 235, 0.04) 1px, transparent 1px);
+    background-size: 24px 24px, 48px 48px, 48px 48px;
+    background-position: 0 0, 0 0, 0 0;
+  }
+
+  /* Neo Cards & Containers - Compact refined sizing */
+  .neo-card {
+    background-color: #ffffff;
+    border: 2px solid #0f172a;
+    box-shadow: 3px 3px 0px 0px #0f172a;
+    border-radius: 10px;
+  }
+
+  .neo-card-blue {
+    background-color: #2563eb;
+    color: #ffffff;
+    border: 2px solid #0f172a;
+    box-shadow: 3px 3px 0px 0px #0f172a;
+    border-radius: 10px;
+  }
+
+  .neo-card-sky {
+    background-color: #dbeafe;
+    color: #0f172a;
+    border: 2px solid #0f172a;
+    box-shadow: 3px 3px 0px 0px #0f172a;
+    border-radius: 10px;
+  }
+
+  .neo-card-white {
+    background-color: #ffffff;
+    color: #0f172a;
+    border: 2px solid #0f172a;
+    box-shadow: 3px 3px 0px 0px #0f172a;
+    border-radius: 10px;
+  }
+
+  /* Interactive Buttons - Compact */
+  .neo-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    border: 1.5px solid #0f172a;
+    box-shadow: 2px 2px 0px 0px #0f172a;
+    border-radius: 7px;
+    transition: transform 0.12s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.12s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.12s ease;
+    will-change: transform;
+    backface-visibility: hidden;
+    cursor: pointer;
+  }
+
+  .neo-btn:hover {
+    transform: translate(-1px, -1px);
+    box-shadow: 3px 3px 0px 0px #0f172a;
+  }
+
+  .neo-btn:active {
+    transform: translate(1.5px, 1.5px);
+    box-shadow: 0.5px 0.5px 0px 0px #0f172a;
+  }
+
+  .neo-btn-primary {
+    background-color: #2563eb;
+    color: #ffffff;
+  }
+
+  .neo-btn-primary:hover {
+    background-color: #1d4ed8;
+  }
+
+  .neo-btn-white {
+    background-color: #ffffff;
+    color: #0f172a;
+  }
+
+  .neo-btn-white:hover {
+    background-color: #f1f5f9;
+  }
+
+  /* Sticker Badges / Pills */
+  .neo-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    font-weight: 800;
+    font-size: 10px;
+    padding: 2px 6px;
+    border: 1.5px solid #0f172a;
+    box-shadow: 1.5px 1.5px 0px 0px #0f172a;
+    border-radius: 5px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+  }
+
+  /* Inputs & Form Elements */
+  .neo-input {
+    background-color: #ffffff;
+    border: 1.5px solid #0f172a;
+    box-shadow: 2px 2px 0px 0px #0f172a;
+    border-radius: 6px;
+    font-weight: 700;
+    color: #0f172a;
+    transition: all 0.15s ease;
+  }
+
+  .neo-input:focus {
+    outline: none;
+    border-color: #0f172a;
+    box-shadow: 3px 3px 0px 0px #2563eb;
+  }
+
+  /* Neo Brutalism Header */
+  .neo-header {
+    background-color: #ffffff;
+    border-bottom: 2.5px solid #0f172a;
+    box-shadow: 0px 3px 0px 0px #0f172a;
+  }
+
+  /* Retro Tag / Stamp Marker */
+  .neo-stamp {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    border: 1.5px solid #0f172a;
+    padding: 1.5px 5px;
+    box-shadow: 1.5px 1.5px 0px 0px #0f172a;
+    border-radius: 3px;
+  }
+
+  /* ----------------------------------------------------
+     Backward Compatibility Aliases
+     ---------------------------------------------------- */
+  .glass-card {
+    background-color: #ffffff !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    border: 2px solid #0f172a !important;
+    box-shadow: 3px 3px 0px 0px #0f172a !important;
+    border-radius: 10px !important;
+  }
+
+  .glass-card-dark {
+    background-color: #0f172a !important;
+    color: #ffffff !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    border: 2px solid #000000 !important;
+    box-shadow: 3px 3px 0px 0px #2563eb !important;
+    border-radius: 10px !important;
+  }
+
+  .glass-card-subtle {
+    background-color: #f8fafc !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    border: 1.5px solid #0f172a !important;
+    box-shadow: 2px 2px 0px 0px #0f172a !important;
+    border-radius: 8px !important;
+  }
+
+  .glass-header {
+    background-color: #ffffff !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    border-bottom: 2.5px solid #0f172a !important;
+    box-shadow: 0px 3px 0px 0px #0f172a !important;
+  }
+
+  .glass-pill {
+    background-color: #eff6ff !important;
+    backdrop-filter: none !important;
+    border: 1.5px solid #0f172a !important;
+    box-shadow: 1.5px 1.5px 0px 0px #0f172a !important;
+    border-radius: 5px !important;
+  }
+
+  .glass-input {
+    background-color: #ffffff !important;
+    backdrop-filter: none !important;
+    border: 1.5px solid #0f172a !important;
+    box-shadow: 2px 2px 0px 0px #0f172a !important;
+    border-radius: 6px !important;
+    font-weight: 700 !important;
+  }
+
+  .glass-input:focus {
+    background-color: #ffffff !important;
+    border-color: #0f172a !important;
+    box-shadow: 3px 3px 0px 0px #2563eb !important;
+  }
+}
+
+/* Custom Neo Brutalism Scrollbar - Sleeker */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #eff6ff;
+  border-left: 1.5px solid #0f172a;
+  border-top: 1.5px solid #0f172a;
+}
+::-webkit-scrollbar-thumb {
+  background: #2563eb;
+  border: 1.5px solid #0f172a;
+  box-shadow: 1px 1px 0px 0px #0f172a;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #1d4ed8;
+}

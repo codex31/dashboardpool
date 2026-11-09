@@ -1,0 +1,225 @@
+[
+  {
+    "id": "2026-11",
+    "monthName": "November",
+    "monthNumber": 11,
+    "year": 2026,
+    "sheetUrl": "https://docs.google.com/spreadsheets/d/1HN4MlIUBsEP5tzpOfKFeNbQ2G7ldgaZu9_r9qOHm6pA/edit?gid=808257444#gid=808257444",
+    "gid": "808257444",
+    "detailPendingGid": "216624293",
+    "detailLkpbGid": "200773994",
+    "lastUpdated": "2026-11-01T20:00:00.000Z",
+    "isDefault": true
+  },
+  {
+    "id": "2026-10",
+    "monthName": "Oktober",
+    "monthNumber": 10,
+    "year": 2026,
+    "sheetUrl": "https://docs.google.com/spreadsheets/d/1lVcO9SDDlelm0n65LdN2qNcdliCpfK230Nq19MnLGRM/edit?gid=808257444#gid=808257444",
+    "gid": "808257444",
+    "detailPendingGid": "216624293",
+    "detailLkpbGid": "200773994",
+    "lastUpdated": "2026-09-30T10:20:00.000Z",
+    "isDefault": false
+  },
+  {
+    "id": "2026-09",
+    "monthName": "September",
+    "monthNumber": 9,
+    "year": 2026,
+    "sheetUrl": "https://docs.google.com/spreadsheets/d/10yajj552DnuKf0-rroYqcdyET60WjTCe58PknW7L6Dw/edit?gid=808257444#gid=808257444",
+    "gid": "808257444",
+    "detailPendingGid": "216624293",
+    "detailLkpbGid": "200773994",
+    "lastUpdated": "2026-09-16T03:25:49.420Z",
+    "isDefault": false
+  },
+  {
+    "id": "2026-08",
+    "monthName": "Agustus",
+    "monthNumber": 8,
+    "year": 2026,
+    "sheetUrl": "https://docs.google.com/spreadsheets/d/1lpiHvWrdj5eyTHqYzgkcWjz9ch-1YGoPXIK2CWwYoHk/edit?gid=0#gid=0",
+    "gid": "0",
+    "detailPendingGid": "",
+    "detailLkpbGid": "",
+    "lastUpdated": "2026-09-16T03:55:00.000Z",
+    "isDefault": false
+  },
+  {
+    "id": "2026-07",
+    "monthName": "Juli",
+    "monthNumber": 7,
+    "year": 2026,
+    "sheetUrl": "https://docs.google.com/spreadsheets/d/1-kWaoaNUqive7g09ddPwu7yD3JVrxyZOkXMtgcvSVEE/edit?usp=sharing",
+    "gid": "0",
+    "lastUpdated": "2026-09-28T04:36:51.496Z"
+  },
+  {
+    "id": "2026-06",
+    "monthName": "Juni",
+    "monthNumber": 6,
+    "year": 2026,
+    "sheetUrl": "https://docs.google.com/spreadsheets/d/17X-4C21GubSXnet2uI1XCtEtsbg1hQaWdPtw6SV63jI/edit?usp=sharing",
+    "gid": "0",
+    "lastUpdated": "2026-09-28T04:37:15.917Z"
+  },
+  {
+    "id": "2026-05",
+    "monthName": "Mei",
+    "monthNumber": 5,
+    "year": 2026,
+    "sheetUrl": "https://docs.google.com/spreadsheets/d/1_WeRlHzzshSAlRwdVfoeNNx6xixfn6ArAd5S85LxnCg/edit?usp=sharing",
+    "gid": "0",
+    "lastUpdated": "2026-09-28T04:37:47.000Z"
+  },
+  {
+    "id": "2026-04",
+    "monthName": "April",
+    "monthNumber": 4,
+    "year": 2026,
+    "sheetUrl": "https://docs.google.com/spreadsheets/d/1Kqnef5aq4i0UsO3Y75IYqDMcDD-TmYh0TMpxIRawq4A/edit?usp=sharing",
+    "gid": "0",
+    "lastUpdated": "2026-09-28T04:38:09.726Z"
+  },
+  {
+    "id": "2026-03",
+    "monthName": "Maret",
+    "monthNumber": 3,
+    "year": 2026,
+    "sheetUrl": "https://docs.google.com/spreadsheets/d/1LmOJ7MAPjaoMd7aJ2IGOneUAN-_0C4kmXk9OXL1ZGQk/edit?usp=sharing",
+    "gid": "0",
+    "lastUpdated": "2026-09-28T04:38:25.034Z"
+  },
+  {
+    "id": "2026-02",
+    "monthName": "Februari",
+    "monthNumber": 2,
+    "year": 2026,
+    "sheetUrl": "https://docs.google.com/spreadsheets/d/1HxbUXLiXnaaSJDU_5tbCRcMs6iSRLkYyEg1BYSvft3M/edit?usp=sharing",
+    "gid": "0",
+    "lastUpdated": "2026-09-28T04:38:36.573Z"
+  },
+  {
+    "id": "2026-01",
+    "monthName": "Januari",
+    "monthNumber": 1,
+    "year": 2026,
+    "sheetUrl": "https://docs.google.com/spreadsheets/d/1xlDAikoiZwATIiv08DY8GGsyNN-cQrS0psocFHUqT4M/edit?gid=808257444#gid=808257444",
+    "gid": "808257444",
+    "lastUpdated": "2026-09-28T04:38:53.090Z"
+  },
+  {
+    "id": "2025-12",
+    "monthName": "Desember",
+    "monthNumber": 12,
+    "year": 2025,
+    "sheetUrl": "https://docs.google.com/spreadsheets/d/1YRr98oEKTPz_pNo2Sbs3Op7YQdr8qvc1vNjJZSXCogw/edit?usp=sharing",
+    "gid": "0",
+    "lastUpdated": "2026-10-12T04:13:52.798Z",
+    "isDefault": false
+  },
+  {
+    "id": "2025-11",
+    "monthName": "November",
+    "monthNumber": 11,
+    "year": 2025,
+    "sheetUrl": "https://docs.google.com/spreadsheets/d/1iittRJgYUBmE5-vVt_ycnyekzZ6siaxYRWwRhIlZMPQ/edit?gid=476175390#gid=476175390",
+    "gid": "1355304594",
+    "detailPendingGid": "476175390",
+    "detailLkpbGid": "2113562402",
+    "lastUpdated": "2026-10-14T07:45:00.000Z",
+    "isDefault": false
+  },
+  {
+    "id": "2025-10",
+    "monthName": "Oktober",
+    "monthNumber": 10,
+    "year": 2025,
+    "sheetUrl": "https://docs.google.com/spreadsheets/d/1KFeqkE-qgOo3xLbzI0yliA02NgxOUKykm5IaavuyYNc/edit?usp=sharing",
+    "gid": "0",
+    "lastUpdated": "2026-10-12T04:13:52.798Z",
+    "isDefault": false
+  },
+  {
+    "id": "2025-09",
+    "monthName": "September",
+    "monthNumber": 9,
+    "year": 2025,
+    "sheetUrl": "https://docs.google.com/spreadsheets/d/10n6zcZDWOQUN2B_OGG_JLzM5eGOKt0SeptsqwQbzwtU/edit?usp=sharing",
+    "gid": "0",
+    "lastUpdated": "2026-10-12T04:13:52.798Z",
+    "isDefault": false
+  },
+  {
+    "id": "2025-08",
+    "monthName": "Agustus",
+    "monthNumber": 8,
+    "year": 2025,
+    "sheetUrl": "https://docs.google.com/spreadsheets/d/1XCoTq8K3SldrynHusCzEJ2qL92UBkJul-GH46kRu_C0/edit?usp=sharing",
+    "gid": "0",
+    "lastUpdated": "2026-10-12T04:13:52.798Z",
+    "isDefault": false
+  },
+  {
+    "id": "2025-07",
+    "monthName": "Juli",
+    "monthNumber": 7,
+    "year": 2025,
+    "sheetUrl": "https://docs.google.com/spreadsheets/d/1WVD4cqdAv_Ilt50YAisdgCZThwR17MvpoXQc9MzCrZ8/edit?usp=sharing",
+    "gid": "0",
+    "lastUpdated": "2026-10-12T04:13:52.798Z",
+    "isDefault": false
+  },
+  {
+    "id": "2025-06",
+    "monthName": "Juni",
+    "monthNumber": 6,
+    "year": 2025,
+    "sheetUrl": "https://docs.google.com/spreadsheets/d/1_5QC55X9d3LveM-oxiRiuG5KqcFIcoc8qc0h6REXvCY/edit?usp=sharing",
+    "gid": "0",
+    "lastUpdated": "2026-10-12T04:13:52.798Z",
+    "isDefault": false
+  },
+  {
+    "id": "2025-05",
+    "monthName": "Mei",
+    "monthNumber": 5,
+    "year": 2025,
+    "sheetUrl": "https://docs.google.com/spreadsheets/d/1NgpuXCLRtedbGeBEHzLKdWRLVUJUnxKEBEfWi6RcV0M/edit?usp=sharing",
+    "gid": "0",
+    "lastUpdated": "2026-10-12T04:13:52.798Z",
+    "isDefault": false
+  },
+  {
+    "id": "2025-04",
+    "monthName": "April",
+    "monthNumber": 4,
+    "year": 2025,
+    "sheetUrl": "https://docs.google.com/spreadsheets/d/1o0vAn7RIPCumSVTJWG1uj-XEzO6il1BGiszbeRz1XfY/edit?usp=sharing",
+    "gid": "0",
+    "lastUpdated": "2026-10-12T04:13:52.798Z",
+    "isDefault": false
+  },
+  {
+    "id": "2025-03",
+    "monthName": "Maret",
+    "monthNumber": 3,
+    "year": 2025,
+    "sheetUrl": "https://docs.google.com/spreadsheets/d/1cPdvPr4LoBuhP-iQH1U4T_gBEeZwCXi0RL-MxWw7L90/edit?usp=sharing",
+    "gid": "0",
+    "lastUpdated": "2026-10-12T04:13:52.798Z",
+    "isDefault": false
+  },
+  {
+    "id": "2025-02",
+    "monthName": "Februari",
+    "monthNumber": 2,
+    "year": 2025,
+    "sheetUrl": "https://docs.google.com/spreadsheets/d/1-9UH4NQ6PLCZTK_CPIzZs9zhczd7gd_7Lv3xM6lgS_U/edit?usp=sharing",
+    "gid": "0",
+    "lastUpdated": "2026-10-12T04:13:52.798Z",
+    "isDefault": false
+  }
+]
